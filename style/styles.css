@@ -1,0 +1,30 @@
+body, html {
+  width: 100vw;
+  background: #1f1f1f;
+  /* fallback for old browsers */ }
+
+.content .content-50 {
+  width: 49%;
+  float: left; }
+
+.dungeon-container {
+  padding: 10px 5px;
+  margin: 2px 0; }
+
+.dungeon {
+  background: #7f58ab;
+  /* fallback for old browsers */ }
+
+.pvp {
+  background: #ab4b48;
+  /* fallback for old browsers */ }
+
+.msq {
+  background: #4e53ab;
+  /* fallback for old browsers */ }
+
+.raid {
+  background: #ab6098;
+  /* fallback for old browsers */ }
+
+/*# sourceMappingURL=styles.css.map */
