@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb7345f-2917-4f3e-a117-e34a456372bf" name="Default Changelist" comment="" />
+    <list default="true" id="fbb7345f-2917-4f3e-a117-e34a456372bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/absqu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/.sass-cache/8ff66edf785506943ffa10960b3c8c96d85ff640/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/8ff66edf785506943ffa10960b3c8c96d85ff640/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/styles.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +26,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dungeonsByLevel</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S6qKUvjMhnJTGdske2AhijTbMr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,10 +108,33 @@
       <workItem from="1570839908651" duration="6830000" />
       <workItem from="1570894330321" duration="17790000" />
       <workItem from="1571087332219" duration="5112000" />
+      <workItem from="1571192232397" duration="599000" />
+      <workItem from="1571251740121" duration="3337000" />
+      <workItem from="1571328556473" duration="5193000" />
+      <workItem from="1571427743124" duration="15162000" />
+      <workItem from="1571529278915" duration="1523000" />
+      <workItem from="1571600994366" duration="599000" />
+      <workItem from="1571685083194" duration="3292000" />
+      <workItem from="1571861599618" duration="2861000" />
+      <workItem from="1572108168239" duration="8482000" />
+      <workItem from="1572293025907" duration="5236000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

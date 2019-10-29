@@ -1,30 +1,126 @@
 body, html {
   width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
   background: #1f1f1f;
-  /* fallback for old browsers */ }
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, #1f1f1f, black);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, #1f1f1f, black);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .content .content-50 {
-  width: 49%;
-  float: left; }
+  width: 50%;
+  float: left;
+  display: table;
+  height: 100vh;
+  background: rgba(31, 31, 31, 0.3);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, rgba(31, 31, 31, 0.3), rgba(0, 0, 0, 0.3));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, rgba(31, 31, 31, 0.3), rgba(0, 0, 0, 0.3));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .content .content-50 #dungeons, .content .content-50 #form {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    text-align: center; }
+
+.hidden {
+  display: none; }
 
 .dungeon-container {
   padding: 10px 5px;
-  margin: 2px 0; }
+  margin: 5px 0;
+  font-size: 13px; }
+  .dungeon-container a {
+    color: #060606;
+    text-decoration-color: #060606;
+    font-weight: bold; }
 
 .dungeon {
   background: #7f58ab;
-  /* fallback for old browsers */ }
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, #7f58ab, #66468a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, #7f58ab, #66468a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .pvp {
   background: #ab4b48;
-  /* fallback for old browsers */ }
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, #ab4b48, #873b39);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, #ab4b48, #873b39);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .msq {
   background: #4e53ab;
-  /* fallback for old browsers */ }
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, #4e53ab, #3e4288);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, #4e53ab, #3e4288);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .raid {
   background: #ab6098;
-  /* fallback for old browsers */ }
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(55deg, #ab6098, #8d4b7c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(55deg, #ab6098, #8d4b7c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+*:focus {
+  outline: none !important; }
+
+label {
+  text-align: right;
+  display: inline-block;
+  width: 25%;
+  color: #858585; }
+
+.button, input[type="button"] {
+  cursor: pointer;
+  padding: 10px 8px;
+  border: none;
+  font-weight: bold; }
+
+input[type="text"], input[type="number"] {
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  opacity: 0.9;
+  width: 40%;
+  margin: 4px;
+  padding: 8px 4px;
+  background-color: #858585;
+  border: none; }
+  input[type="text"]:hover, input[type="number"]:hover {
+    opacity: 1 !important; }
+  input[type="text"]:focus, input[type="number"]:focus {
+    opacity: 1 !important; }
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  display: none; }
+
+.button-group {
+  margin: 12px 5px; }
+  .button-group input[type="button"] {
+    margin: 0;
+    min-width: 60px;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    opacity: 0.9;
+    -webkit-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out; }
+    .button-group input[type="button"]:hover {
+      opacity: 1 !important; }
+    .button-group input[type="button"]:not(.enabled) {
+      background: #858585;
+      opacity: 0.4; }
 
 /*# sourceMappingURL=styles.css.map */
