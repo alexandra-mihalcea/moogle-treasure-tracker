@@ -40,7 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../charybdis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../league-of-tokens" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -118,6 +118,11 @@
       <workItem from="1571861599618" duration="2861000" />
       <workItem from="1572108168239" duration="8482000" />
       <workItem from="1572293025907" duration="5236000" />
+      <workItem from="1572405058848" duration="599000" />
+      <workItem from="1572464599561" duration="6944000" />
+      <workItem from="1572558060765" duration="635000" />
+      <workItem from="1572643029210" duration="1237000" />
+      <workItem from="1572758407061" duration="2103000" />
     </task>
     <servers />
   </component>

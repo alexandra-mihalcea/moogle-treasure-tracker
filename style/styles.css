@@ -31,13 +31,18 @@ body, html {
   display: none; }
 
 .dungeon-container {
-  padding: 10px 5px;
   margin: 5px 0;
-  font-size: 13px; }
-  .dungeon-container a {
+  font-size: 13px;
+  background-color: #1f1f1f; }
+  .dungeon-container .dungeon-title {
     color: #060606;
-    text-decoration-color: #060606;
-    font-weight: bold; }
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 8px; }
+  .dungeon-container .dungeon-stats .dungeon-stat {
+    display: inline-flex;
+    flex-direction: row; }
 
 .dungeon {
   background: #7f58ab;
@@ -46,6 +51,8 @@ body, html {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(55deg, #7f58ab, #66468a);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .dungeon .dungeon-stat {
+    color: #7f58ab; }
 
 .pvp {
   background: #ab4b48;
@@ -54,6 +61,8 @@ body, html {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(55deg, #ab4b48, #873b39);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .pvp .dungeon-stat {
+    color: #ab4b48; }
 
 .msq {
   background: #4e53ab;
@@ -62,6 +71,8 @@ body, html {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(55deg, #4e53ab, #3e4288);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .msq .dungeon-stat {
+    color: #4e53ab; }
 
 .raid {
   background: #ab6098;
@@ -70,6 +81,8 @@ body, html {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(55deg, #ab6098, #8d4b7c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .raid .dungeon-stat {
+    color: #ab6098; }
 
 *:focus {
   outline: none !important; }

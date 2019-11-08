@@ -74,30 +74,50 @@ body, html {
 }
 
 .dungeon-container {
-  padding: 10px 5px;
   margin: 5px 0;
   font-size: 13px;
-  a {
+  background-color: $background-color-primary;
+  .dungeon-title {
     color: $font-color-dark;
-    text-decoration-color: $font-color-dark;
     font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 8px;
   }
+.dungeon-stats{
+  .dungeon-stat{
+    display: inline-flex;
+    flex-direction: row;
+  }
+}
 }
 
 .dungeon {
-  @include background($color-dungeon, false, 55deg);
+    @include background($color-dungeon, false, 55deg);
+  .dungeon-stat{
+    color: $color-dungeon;
+  }
 }
 
 .pvp {
   @include background($color-pvp, false, 55deg);
+  .dungeon-stat{
+    color: $color-pvp;
+  }
 }
 
 .msq {
   @include background($color-msq, false, 55deg);
+  .dungeon-stat{
+    color: $color-msq;
+  }
 }
 
 .raid {
   @include background($color-raid, false, 55deg);
+  .dungeon-stat{
+    color: $color-raid;
+  }
 }
 
 *:focus {

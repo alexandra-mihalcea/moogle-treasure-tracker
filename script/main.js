@@ -169,10 +169,16 @@ function initializeDungeons() {
   $('#dungeons').html('')
   userDungeons.forEach((dungeon) => {
     $('#dungeons').append(`
-                          <div id="${dungeon.id}" class="dungeon-container ${dungeon.type} flipInX animated"> 
-                          <span class="dungeon-rate">${dungeon.rate} t/hr </span>
-                          <a class="dungeon-title" href="${dungeonUrl + dungeon.id}" target="_blank">${dungeon.name}</a> 
-                          (lvl ${dungeon.lvl}) - ${dungeon.tomestones} tomestones
+                          <div id="${dungeon.id}" class="dungeon-container flipInX animated"> 
+                          <a class="dungeon-title ${dungeon.type}" href="${dungeonUrl + dungeon.id}" target="_blank">${dungeon.name}</a> 
+                          <div class="dungeon-stats">
+                          <span class="dungeon-stat">${dungeon.rate} t/hr </span>
+                          <span class="dungeon-stat">${dungeon.average} min </span>
+                          <span class="dungeon-stat">${dungeon.limit} min </span>
+                          <span class="dungeon-stat">lvl ${dungeon.lvl}</span>
+                          <span class="dungeon-stat">l${dungeon.tomestones} tomestones</span>
+                          </div>
+                          
                           </div>`)
   })
 }
